@@ -55,7 +55,6 @@ spec:
           imagePullPolicy: 'Always'
 
           securityContext:
-            runAsUser: 1000
             runAsNonRoot: true
             readOnlyRootFilesystem: true
             privileged: false
